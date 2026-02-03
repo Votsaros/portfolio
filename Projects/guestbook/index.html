@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guestbook App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Guestbook App</h1>
+</header>
+
+<main>
+  <section class="guestbook">
+    <input type="text" id="nameInput" placeholder="Name">
+    <input type="text" id="emailInput" placeholder="Email / Number">
+    <button id="addBtn">Add</button>
+
+    <input type="text" id="searchInput" placeholder="Search...">
+
+    <ul id="logList"></ul>
+
+    <div class="export-btns">
+      <button id="saveBtn">Download TXT</button>
+      <button id="saveCsvBtn">Download CSV</button>
+    </div>
+
+    <h2>History Log</h2>
+    <ul id="historyList"></ul>
+  </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
